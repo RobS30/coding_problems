@@ -1,0 +1,34 @@
+# Determine whether a given year is a leap year in the Gregorian calendar.
+# leap year logic pulled from https://en.wikipedia.org/wiki/Leap_year
+# if (year is not divisible by 4) then (it is a common year)
+# else if (year is not divisible by 100) then (it is a leap year)
+# else if (year is not divisible by 400) then (it is a common year)
+# else (it is a leap year)
+
+
+def isLeapYear(year):
+
+    if year % 4 != 0:
+        return False
+    elif year %100 != 0:
+        return True
+    elif year %400 != 0:
+        return False
+    else: 
+        return True
+
+
+
+if __name__ == "__main__":
+    print("I should return False")
+    print(isLeapYear(2018))
+    print("I should return True")
+    print(isLeapYear(2016))
+    print("I should return True")
+    print(isLeapYear(2000))
+    print("I should return False")
+    print(isLeapYear(1900))
+    print("I should return True")
+    print(isLeapYear(1996))
+    print("I should return False")
+    print(isLeapYear(1800))
