@@ -9,4 +9,6 @@ Project Euler
 2) Even Fibonacci Numbers - In Progress
 
 Rosetta Code
-1) 100 doors - in progress
+- 100_doors - in progress
+- fibonacci_sequence - completed 2022/05/28
+- leap_year - completed 2022/05/29
