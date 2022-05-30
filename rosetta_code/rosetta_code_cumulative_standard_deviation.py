@@ -16,11 +16,11 @@ def standardDeviation(arr):
         dsquared = deviation**2 
         variance += dsquared
 
-# work out the mean of the squared differences
+    # work out the mean of the squared differences
     mean_variance = variance / len(arr)
 
 
-# take the square root
+    # take the square root
     standard_deviation = mean_variance**(1/2)
 
     return standard_deviation
