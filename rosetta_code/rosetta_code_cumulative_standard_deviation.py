@@ -1,7 +1,7 @@
 # Write a function that takes an array of numbers as parameter and returns the standard deviation of the series.
 
 def standardDeviation(arr):
-
+    """Takes an array of integers as a parameter, and returns the standard deviation (int) of the array."""
 
     # calculate the mean of the numbers in the data ou are working with
     mean = 0
